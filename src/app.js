@@ -1,6 +1,6 @@
 import "./import-jquery.js";
 import "@tensorflow/tfjs";
-import * as faceapi from "@vladmandic/face-api/dist/face-api.esm-nobundle.js";
+import * as faceapi from "@vladmandic/face-api";
 import * as posedetection from "@tensorflow-models/pose-detection";
 
 import { Camera } from "./camera.js";
