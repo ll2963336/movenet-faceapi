@@ -59,7 +59,7 @@ async function runMLModels() {
 // 主程式
 async function app() {
   // 設好 camera
-  window.camera = camera = await Camera.setupCamera();
+  // window.camera = camera = await Camera.setupCamera();
 
   // 開始 loop
   // runMLModels();
