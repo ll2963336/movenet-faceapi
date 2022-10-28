@@ -64,7 +64,7 @@ async function app() {
   // 開始 loop
   // runMLModels();
 
-  // await faceapi.nets.tinyFaceDetector.loadFromUri("/model");
+  await faceapi.nets.tinyFaceDetector.loadFromUri("/model");
   // await faceapi.nets.ageGenderNet.loadFromUri("/model");
   // await faceapi.nets.faceRecognitionNet.loadFromUri("/model");
   // await faceapi.nets.faceExpressionNet.loadFromUri("/model");
